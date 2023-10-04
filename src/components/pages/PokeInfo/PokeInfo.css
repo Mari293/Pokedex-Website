@@ -1,0 +1,78 @@
+section{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #025a91;
+}
+section > div:nth-child(1){
+  width: 90%;
+  display: flex;
+  gap:32rem;
+  height: 5rem;
+  color: #fff;
+
+}
+.returnArrow{
+  cursor: pointer;
+  text-decoration: none;
+  color: #fff;
+}
+.returnArrow:hover{
+  color: #fff;
+}
+
+section > div:nth-child(2){
+  display: flex;
+  width: 90%;
+  height: 100vh;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pokeImg{
+  width: 50%;
+}
+.pokeInfo{
+  width: 50%;
+  height:90% ;
+  background-color: azure;
+  border-radius: 2rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.pokeInfo > div:nth-child(1){
+  width: 90%;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+}
+.pokeInfo > div:nth-child(2){
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.pokeDisplay{
+  width: 90%;
+  display: flex;
+}
+.pokeStats{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.pokeAbilities{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.boldText{
+  font-weight: bold;
+  font-size: 1.3rem;
+}
